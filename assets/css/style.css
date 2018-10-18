@@ -15,6 +15,11 @@ body {
   font-weight: 100;
 }
 
+
+.nav-link:hover {
+  opacity: 0.4;
+}
+
 .hero-container {
   background-image: url(../images/heroimg2.jpg);
   background-size: cover;
