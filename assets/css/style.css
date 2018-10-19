@@ -46,3 +46,105 @@ body {
   font-size: 1.4rem;
   text-align: center;
 }
+
+
+.navbar-toggler button {
+  outline: 0;
+}
+
+button:focus, button:active {
+   outline: none !important;
+}
+
+.kontakt-section {
+  margin-top: 150px;
+}
+
+.heading {
+  text-align: center;
+  margin: 40px 0;
+  font-size: 3rem;
+}
+
+.action-form {
+  width: 90%;
+  margin: 100px auto 40px auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.action-form .col-sm-6 {
+  padding: 0 50px;
+}
+
+#form-heading {
+  color: #426151;
+  font-weight: 700;
+  margin-bottom: 25px;
+  padding-top: 40px;
+  letter-spacing: 1px;
+  font-size: 1.25rem;
+}
+
+.form-control {
+  outline: 0;
+  border-width: 0 0 0.2px;
+  border-color: #707070 !important;
+  border-radius: 0;
+
+}
+
+input:focus {
+  border-color: green
+}
+
+form {
+  width: 70%;
+  box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.2);
+  margin-left: 70px;
+}
+
+textarea.form-control {
+    height: 200px;
+}
+
+.btn-primary {
+  color: #367148;
+  background-color: white;
+  padding: 10px 0px;
+  width: 100%;
+  border-radius: 0 !important;
+  border-color: #367148;
+  font-weight: 100;
+}
+
+.btn-primary:hover{
+  color: white;
+  background-color: #367148;
+  border-color:white;
+}
+
+.form-group-button{
+  padding: 40px 0;
+}
+
+.inner-form {
+  width: 80%;
+  margin: auto;
+}
+
+.question-section {
+  text-align: justify;
+}
+
+.question-section p {
+  margin: 20px 0;
+  line-height: 25px;
+}
+
+#kontakt-hr {
+  width: 40%;
+  margin: 10px 0;
+  background-color: #F399B3;
+  border-top: 2px solid #426151 !important;
+}
