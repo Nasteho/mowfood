@@ -17,6 +17,7 @@
     <!--Scripts-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="assets/script/script.js" charset="utf-8"></script>
+    <script type="text/javascript" src="assets/script/instafeed.js"></script>
   </head>
 
   <body>
@@ -50,7 +51,7 @@
     	</nav>
     </header>
 
-    <!-- Hero -->
+    <!-- Hero
     <section class="hero-container">
       <div id="hero-image">
         <img src="assets/images/mowfoodlogo.png" alt="mowfood logo" height="200" >
@@ -59,14 +60,30 @@
       <h1 id="hero-headline">VI GARANTERER SUND STREETFOOD AF HØJ KVALITET</h1>
       <p id="hero-p">Bliv en del af the #mowment</p>
     </section>
-
+-->
     <!-- om MowFood -->
 
-    <section>
+    <section id="instagram">
+      	<div class="container">
+      		<h1><a href="https://www.instagram.com/mowstreetfood/" target="blank">@ mowstreetfood</a></h1>
+      		<script>
+          var userFeed = new Instafeed({
+    		    	clientId: '	0ac0de64375b4c998d5c1546ccf45e01',
+    		        get: 'user',
+    		        userId: '7290506302',
+    		        limit: '6',
+                resolution: 'low_resolution',
+    		        template: '<a href="{{link}}" target="blank"><figure class="instagram" style="background-image: url({{image}});"></figure></a>'
+    		    });
+    		    userFeed.run();
+      		</script>
+      		<div id="instafeed"></div>
+      	</div>
+      </section>
 
-    </section>
 
-
+    <!-- Instagram feed -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/instafeed.js/1.4.1/instafeed.min.js"></script>
     <!-- Animation library -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script>
