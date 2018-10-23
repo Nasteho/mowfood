@@ -67,6 +67,10 @@ button:focus, button:active {
   z-index: 999;
 }
 
+.inner-elements {
+  margin-top: 150px;
+}
+
 .heading {
   text-align: center;
   margin: 40px 0;
@@ -294,4 +298,17 @@ footer .row {
 .opening-hours {
   width: 42%;
   margin: auto;
+}
+
+.menu-navigation {
+  margin: auto;
+  width: 32%;
+}
+
+.menu-navigation .row {
+  margin-left: 0 !important;
+}
+
+.menu-navigation li {
+  padding: 0 22px;
 }
