@@ -2,6 +2,11 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+body a:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
 .navbar {
 	background-color: #09231C;
 	color:#333333;
@@ -216,4 +221,77 @@ textarea.form-control {
     background-color: grey;
     margin-top: 70px;
     margin-bottom: 100px;
+}
+
+footer {
+  margin: auto;
+  background-color: #272727;
+}
+
+
+.footer-headline {
+  font-weight: 600;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+
+  margin-bottom: 20px;
+}
+
+footer p {
+  font-weight: 100;
+}
+
+footer h6 {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+
+
+.socialmedia-footer{
+  width: 49%;
+  margin: auto;
+}
+
+.socialmedia-footer .fab {
+  padding-right: 25px;
+  font-size: 2.6em;
+}
+
+.contact {
+  width: 60%;
+  margin: auto;
+}
+
+.contact p {
+  margin-right: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.contact a {
+  font-weight: 100;
+  color: white;
+}
+
+.inner-footer {
+  padding: 120px 0;
+  margin: auto;
+}
+
+
+footer .row {
+  margin-left: 0 !important;
+}
+
+#copyright {
+  text-align: center;
+  margin-bottom: 0 !important;
+  padding-bottom: 10px;
+  font-size: 0.7em;
+}
+
+.opening-hours {
+  width: 42%;
+  margin: auto;
 }
