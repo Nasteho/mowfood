@@ -254,7 +254,7 @@ footer h6 {
 
 
 .socialmedia-footer{
-  width: 49%;
+
   margin: auto;
 }
 
@@ -297,13 +297,11 @@ footer .row {
 }
 
 .opening-hours {
-  width: 42%;
-  margin: auto;
+
 }
 
 .menu-navigation {
-  margin: auto;
-  width: 32%;
+
 }
 
 .menu-navigation .row {
