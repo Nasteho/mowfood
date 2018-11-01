@@ -73,7 +73,7 @@ button:focus, button:active {
 .heading {
   text-align: center;
   margin: 40px 0;
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 .action-form {
@@ -230,6 +230,7 @@ footer {
   padding-top: 100px;
   color: white;
   margin: auto;
+  width: 100%;
   background-color: #272727;
 }
 
@@ -248,7 +249,7 @@ footer p {
 }
 
 #menu img {
-  width: 550px;
+  width: 100%;
 }
 
 
@@ -358,16 +359,25 @@ body .row {
   line-height: 35px;
 }
 
+.category h1 {
+  text-align: center;
+  width: 100%;
+  color: grey;
+  margin-bottom: 70px;
+}
+
 .mad-billede {
   margin-left: 70px;
-  margin-top: 30px;
 }
 
 #menu {
   margin-top: 150px;
-  max-width: 1200px;
+  max-width: 1300px;
 }
 
+#menu .row {
+  width: 100%;
+}
 .variant {
   margin-bottom: 150px;
 }
