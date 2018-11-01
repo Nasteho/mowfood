@@ -240,15 +240,17 @@ footer .col-md-4 {
 
 
 
-.footer-some img {
-  padding-right: 20px;
-}
 
 footer p {
   font-weight: 100;
   font-size: 0.9rem;
 
 }
+
+#menu img {
+  width: 550px;
+}
+
 
 .font-weight-bold {
   font-weight: 600 !important;
@@ -323,6 +325,49 @@ footer .row {
   padding: 0 22px;
 }
 
-.row {
+body .row {
   margin-left: 0 !important;
+  margin-right: 0 !important;
+
+}
+
+.type {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1.5px lightgrey;
+}
+
+.type p {
+  margin-bottom: 0;
+}
+
+.option {
+  margin-bottom: 30px;
+}
+
+.special {
+  font-weight: 100;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.description {
+  font-weight: 100;
+  font-style: italic;
+  margin: 30px 0;
+  line-height: 35px;
+}
+
+.mad-billede {
+  margin-left: 70px;
+  margin-top: 30px;
+}
+
+#menu {
+  margin-top: 150px;
+  max-width: 1200px;
+}
+
+.variant {
+  margin-bottom: 150px;
 }
