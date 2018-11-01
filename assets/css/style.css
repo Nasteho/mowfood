@@ -47,7 +47,6 @@ body a:hover {
 
 #hero-p {
   font-weight: 100;
-  font-style: italic;
   font-size: 1.4rem;
   text-align: center;
 }
@@ -228,39 +227,55 @@ textarea.form-control {
 }
 
 footer {
+  padding-top: 100px;
   color: white;
   margin: auto;
   background-color: #272727;
 }
 
+footer .col-md-4 {
+    padding-left: 105px;
+    padding-bottom: 50px;
+}
 
-.footer-headline {
-  font-weight: 600;
-  font-size: 1.2rem;
-  letter-spacing: 1px;
 
-  margin-bottom: 20px;
+
+.footer-some img {
+  padding-right: 20px;
 }
 
 footer p {
   font-weight: 100;
+  font-size: 0.9rem;
+
 }
 
-footer h6 {
-  font-weight: 600;
-  letter-spacing: 1px;
+.font-weight-bold {
+  font-weight: 600 !important;
+    letter-spacing: 1.5px !important;
+}
+
+.font-weight-bold a {
+  padding-left: 10px;
+  color: white;
+  font-weight: 100 !important;
+}
+
+footer h5 {
+  margin-bottom: 20px;
 }
 
 
 
-.socialmedia-footer{
 
-  margin: auto;
-}
 
-.socialmedia-footer .fab {
-  padding-right: 25px;
+
+
+
+footer .fab {
+  padding-right: 15px;
   font-size: 2.6em;
+  color: white !important;
 }
 
 .contact {
@@ -279,10 +294,6 @@ footer h6 {
   color: white;
 }
 
-.inner-footer {
-  padding: 120px 0;
-  margin: auto;
-}
 
 
 footer .row {
