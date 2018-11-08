@@ -16,3 +16,9 @@ function initMap() {
     map: map
   });
 }
+
+$(document).ready(function(){
+    $("#retterbtn").click(function(){
+        $("#retter").hide();
+    });
+});

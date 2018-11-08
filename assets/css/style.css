@@ -32,6 +32,20 @@ body a:hover {
   color: white;
 }
 
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  background-color: black;
+}
+
+
+
 #hero-image {
   display: block;
   width: 29%;
@@ -327,9 +341,8 @@ footer .row {
 }
 
 body .row {
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-
+margin-left: 0;
+margin-right: 0;
 }
 
 .type {
@@ -380,4 +393,20 @@ body .row {
 }
 .variant {
   margin-bottom: 150px;
+}
+
+.menu-navigation {
+  max-width: 900px;
+  padding-right: 0 !important;
+  margin: auto;
+    padding: 0 20px;
+}
+
+.menu-navigation .row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-navigation .row ul {
+  padding-left: 0;
 }
