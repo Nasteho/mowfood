@@ -421,3 +421,20 @@ margin-right: 0;
 .menu-navigation .row ul button:hover{
   opacity: 0.6;
 }
+
+.subheading {
+  font-size: 2.2rem;
+}
+
+
+.heading-about {
+  margin-top: 100px;
+}
+
+.aboutus-img img{
+  width: 100%;
+}
+
+.aboutus-text p{
+  text-align: justify;
+}
