@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <script type="text/javascript" src="assets/script/instafeed.min.js"></script>
+  </head>
+
+  <body>
+    <section id="instagram">
+      	<div class="container">
+      		<h1><a href="https://www.instagram.com/mowstreetfood/" target="blank">@ mowstreetfood</a></h1>
+      		<script>
+          var userFeed = new Instafeed({
+    		    	clientId: '	152d54d2c88e4706a60975fb7da2a6b5',
+    		        get: 'user',
+    		        userId: '3301503265',
+                accessToken: '3301503265.152d54d.52bf6d71edb848f7a38b47cc9f2cfd67',
+    		        limit: '6',
+                resolution: 'low_resolution',
+    		        template: '<a href="{{link}}" target="blank"><figure class="instagram" style="background-image: url({{image}});"></figure></a>'
+    		    });
+    		    userFeed.run();
+      		</script>
+      		<div id="instafeed"></div>
+      	</div>
+      </section>
+  </body>
+
+  </html>

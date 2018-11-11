@@ -17,12 +17,13 @@
     <!--Scripts-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="assets/script/script.js" defer charset="utf-8"></script>
-    <script type="text/javascript" src="assets/script/instafeed.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/instafeed.js/1.4.1/instafeed.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   </head>
 
   <body>
     <header>
-      <nav class="navbar fixed-top navbar-dark navbar-expand-lg">
+      <nav class="navbar fixed-top navbar-dark navbar-expand-lg" id="navbarnobackground">
       		<section class="container">
       			<a class="navbar-brand text-uppercase" href="index.html"><img src="assets/images/mowfoodlogo.png" alt="mowfood logo" height="50"></a>
       			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,26 +53,27 @@
     </header>
 
 
-    <section class="hero-container">
-      <div id="hero-image">
-        <img src="assets/images/mowfoodlogo.png" alt="mowfood logo" height="200" >
-      </div>
+    <section class="hero-container " style="width:100%; height: 100vh;">
+      <video autoplay loop muted>
+  <source src="assets/video/mowfoodvideo.mp4" type="video/mp4">
 
-      <h1 id="hero-headline">VI GARANTERER SUND STREETFOOD AF HØJ KVALITET</h1>
-      <p id="hero-p">Bliv en del af the #mowment</p>
-    </section>
+</video>
+</section >
 
-    <div class="overlay">
-    </div>
+
 
     <!-- om MowFood -->
 
     <section id="instagram">
+      	<div class="container">
+      		<h1><a href="https://www.instagram.com/mowstreetfood/" target="blank">@ mowstreetfood</a></h1>
+
+      		<div id="instafeed"></div>
+      	</div>
       </section>
 
 
     <!-- Instagram feed -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/instafeed.js/1.4.1/instafeed.min.js"></script>
     <!-- Animation library -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script>

@@ -26,8 +26,6 @@ body a:hover {
 }
 
 .hero-container {
-  background-image: url(../images/heroimg2.jpg);
-  background-size: cover;
   height: 100vh;
   color: white;
 }
@@ -428,13 +426,62 @@ margin-right: 0;
 
 
 .heading-about {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .aboutus-img img{
   width: 100%;
 }
 
-.aboutus-text p{
+.aboutustext{
   text-align: justify;
+  margin-bottom: 50px;
+  line-height: 35px;
+}
+
+.aboutustext h2 {
+  margin-bottom: 20px;
+}
+
+
+.mowmenticons .fab {
+  padding: 0 10px;
+  color: #272727;
+}
+
+.mowmenticons {
+  width: auto;
+  margin: auto;
+}
+
+#omos img {
+  margin-bottom: 100px;
+}
+
+#omos {
+  margin-bottom: 150px;
+}
+
+#instagram #instafeed {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#instagram {
+  text-align: center;
+}
+
+figure .instagram {
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+video {
+
+  height: 100vh;
 }

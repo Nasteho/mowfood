@@ -55,3 +55,16 @@ $(document).ready(function() {
     $("#snacks").hide();
     $("#retter").show();
 });
+
+var userFeed = new Instafeed({
+  get: 'user',
+      userId: '7290506302',
+      clientId: '		6f55e5fdb1bf479b81e49cd5109d2edf',
+      accessToken: '7290506302.6f55e5f.7cd9333c923d4635b7de743970c86bf7',
+      limit: '6',
+      resolution: 'low_resolution',
+      useHttp: true,
+    
+
+  });
+  userFeed.run();
