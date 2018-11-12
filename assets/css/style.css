@@ -94,6 +94,7 @@ button:focus, button:active {
 
 .action-form {
   width: 90%;
+  margin-left: 50px !important;
   margin: 150px auto 40px auto;
   display: flex;
   flex-direction: row;
