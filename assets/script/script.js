@@ -18,6 +18,31 @@
 
 */
 
+$(window).on("scroll", function() {
+    if($(window).scrollTop() > 70) {
+        $("nav").addClass("backgroundcolor");
+        $(".nav-link").addClass("navcolor");
+        $(".navbar").addClass("navbar-dark");
+
+    } else {
+       $("nav").removeClass("backgroundcolor");
+         $(".nav-link").removeClass("navcolor");
+         $(".navbar").removeClass("navbar-dark");
+
+    }
+});
+
+var initialSrc = "../mowfood/assets/images/mowfoodlogosort.png";
+var scrollSrc = "../mowfood/assets/images/mowfoodlogo.png";
+
+$(window).scroll(function() {
+   var value = $(this).scrollTop();
+   if (value > 70)
+      $(".logo").attr("src", scrollSrc);
+   else
+      $(".logo").attr("src", initialSrc);
+});
+
   $("#snacksbtn").click(function(){
     $("#snacks").show();
       $("#retter").hide();
@@ -64,7 +89,7 @@ var userFeed = new Instafeed({
       limit: '6',
       resolution: 'low_resolution',
       useHttp: true,
-    
+
 
   });
   userFeed.run();

@@ -21,9 +21,9 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   </head>
 
-  <body>
+  <body id="aboutusbody">
     <header>
-      <nav class="navbar fixed-top navbar-dark navbar-expand-lg" id="navbarnobackground">
+      <nav class="navbar fixed-top navbar-light  navbar-expand-lg" id="navbarnobackground">
       		<section class="container">
       			<a class="navbar-brand text-uppercase" href="index.html"><img src="assets/images/mowfoodlogo.png" alt="mowfood logo" height="50"></a>
       			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,12 +53,35 @@
     </header>
 
 
-    <section class="hero-container " style="width:100%; height: 100vh;">
-      <video autoplay loop muted>
-  <source src="assets/video/mowfoodvideo.mp4" type="video/mp4">
+    <section class="hero-container " style="width:100%; height: 100vh; overflow-x: hidden; overflow-y: hidden;">
+      <video autoplay loop muted id="videolarge">
+        <source src="assets/video/mowfoodvideo.mp4" type="video/mp4">
+      </video>
 
-</video>
+      <video autoplay loop muted id="videomedium">
+        <source src="assets/video/mowfoodvideo-medium.mp4" type="video/mp4">
+      </video>
+
+      <video autoplay loop muted id="videosmall">
+        <source src="assets/video/mowfoodvideo-small.mp4" type="video/mp4">
+      </video>
+
+
+
+
+
 </section >
+
+<div class="overlay">
+
+</div>
+
+<!--- Tag line and company name --->
+  <div class="text">
+    <h1 data-aos="fade-down">MOW FOOD</h1>
+    <p data-aos="fade-down" data-aos-delay="600">VI GARANTERER SUND STREETFOOD AF HØJ KVALITET</p>
+    <p data-aos="fade-down" data-aos-delay="1200">Bliv en del af the #mowment</p>
+  </div>
 
 
 
