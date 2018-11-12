@@ -18,6 +18,8 @@
 
 */
 
+
+
 $(window).on("scroll", function() {
     if($(window).scrollTop() > 70) {
         $("nav").addClass("backgroundcolor");

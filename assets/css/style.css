@@ -474,6 +474,7 @@ margin-right: 0;
 
 #instagram {
   text-align: center;
+  margin-top: 100px;
 }
 
 figure .instagram {
@@ -533,6 +534,12 @@ video {
 
 #videosmall {
   display: none;
+}
+
+.anmeldelse1 {
+  color: white;
+  font-weight: 100;
+  font-style: italic;
 }
 
 
