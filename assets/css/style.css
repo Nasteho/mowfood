@@ -204,6 +204,11 @@ textarea.form-control {
 
 }
 
+.inner-google-maps img {
+  box-shadow: 0px 0px 44px rgba(0, 0, 0, 0.4);
+  max-width: 1070px;
+}
+
 .google-maps {
   position: absolute;
   width: 100%;
