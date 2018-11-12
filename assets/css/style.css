@@ -160,9 +160,7 @@ textarea.form-control {
   margin: auto;
 }
 
-.question-section {
-  text-align: justify;
-}
+
 
 .question-section p {
   margin: 20px 0;
@@ -577,6 +575,19 @@ video {
     display: none;
   }
 
+  .action-form {
+      width: 100%;
+  }
+
+  form {
+    margin-left: 0;
+      margin-top: 40px;
+  }
+
+.google-maps {
+      top: 835px;
+}
+
 
 }
 
@@ -604,6 +615,27 @@ video {
    font-size: 1rem;
  }
 
+ .action-form {
+   margin: 0;
+ }
+
+ .question-section {
+    text-align: start;
+}
+
+.action-form {
+    width: 100%;
+}
+
+form {
+  margin-left: 0;
+    margin-top: 40px;
+}
+
+.google-maps {
+  top: 1360px;
+
+  }
 }
 
 @media (width: 1024px) {
@@ -623,5 +655,56 @@ video {
 
   #videosmall{
     display: none;
+  }
+
+  .action-form {
+      width: 100%;
+  }
+
+  form {
+    margin-left: 0;
+      margin-top: 40px;
+  }
+
+  .google-maps {
+    top: 714px;
+
+    }
+}
+
+@media (width: 812px) {
+  form {
+    margin-left: 0;
+  }
+
+  .action-form {
+      width: 100%;
+      margin: 0;
+  }
+}
+
+@media (width: 736px) {
+  form {
+    margin-left: 0;
+  }
+
+  .action-form {
+      width: 100%;
+      margin: 0;
+  }
+}
+
+@media (width: 667px), (width: 823px), (width: 731px), (width: 640px){
+  form {
+    margin-left: 0;
+  }
+
+  .action-form {
+      width: 100%;
+      margin: 0;
+  }
+
+  .google-maps {
+    top: 743px;
   }
 }
