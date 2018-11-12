@@ -498,17 +498,23 @@ video {
 
 .text {
   position: absolute;
-  top: 40%;
+  top: 30%;
   color: white;
   text-align: center;
   width: 100%;
 }
 
-.text  h1 {
-  font-size: 4.5rem;
-  padding: 0 20px;
+#premise {
+  font-style: italic;
+}
+
+#promise {
   font-weight: 600;
-  letter-spacing: 1px;
+  letter-spacing: 4px;
+}
+
+.text  img{
+  width: 30%;
 }
 
 .text p {
