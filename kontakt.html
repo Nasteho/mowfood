@@ -76,21 +76,21 @@
         </div>
 
         <div class="col-sm-6">
-          <form>
+          <form action=""enctype="multipart/form-data" id="#frmemail">
             <div class="inner-form">
             <h5 id="form-heading">Sig hej!</h5>
             <div class="form-group">
-              <input type="name" class="form-control" id="CustomerName" aria-describedby="customerName" placeholder="Dit navn">
+              <input type="name" name="name" class="form-control" id="CustomerName" aria-describedby="customerName" placeholder="Dit navn" autofocus>
             </div>
 
             <div class="form-group">
-              <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Din mail">
+              <input type="email" class="form-control" name="email" id="InputEmail" aria-describedby="emailHelp" placeholder="Din mail">
             </div>
             <div class="form-group">
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Din besked" ></textarea>
+              <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3" placeholder="Din besked" ></textarea>
             </div>
             <div class="form-group-button">
-                <button type="submit" class="btn btn-primary">Send</button>
+                <button type="submit" name="submit" class="btn btn-primary">Send</button>
             </div>
             </div>
           </form>
