@@ -581,6 +581,10 @@ video {
     color: gray;
 }
 
+#call2action {
+  background-color: #EFCD5C;
+}
+
 /* ---- MEDIA QUERIES ---- */
 
 @media (width: 768px) {
