@@ -126,7 +126,7 @@ input:focus {
 }
 
 form {
-  box-shadow: 0px 0px 44px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 44px rgba(0, 0, 0, 0.2);
   margin-left: 100px;
   background-color: white;
     z-index: 9999;
@@ -563,6 +563,22 @@ video {
   color: white;
   font-weight: 100;
   font-style: italic;
+}
+
+.bookingform {
+  box-shadow: 0px 0px 44px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.numofpeop {
+  background: white;
+    border: none;
+    width: 100%;
+    color: gray;
 }
 
 /* ---- MEDIA QUERIES ---- */
