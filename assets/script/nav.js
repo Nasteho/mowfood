@@ -1,10 +1,10 @@
-var initialSrc = "../assets/images/mowfoodlogosort.png";
-var scrollSrc = "../assets/images/mowfoodlogo.png";
+var original = "../assets/images/mowfoodlogosort.png";
+var scroll = "../assets/images/mowfoodlogo.png";
 
 $(window).scroll(function() {
    var value = $(this).scrollTop();
    if (value > 70)
-      $(".logo").attr("src", scrollSrc);
+      $(".logo").attr("src", scroll);
    else
-      $(".logo").attr("src", initialSrc);
+      $(".logo").attr("src", original);
 });

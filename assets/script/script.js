@@ -15,15 +15,15 @@ $(window).on("scroll", function() {
     }
 });
 
-var initialSrc = "../mowfood/assets/images/mowfoodlogosort.png";
-var scrollSrc = "../mowfood/assets/images/mowfoodlogo.png";
+var original = "../mowfood/assets/images/mowfoodlogosort.png";
+var scroll = "../mowfood/assets/images/mowfoodlogo.png";
 
 $(window).scroll(function() {
    var value = $(this).scrollTop();
    if (value > 70)
-      $(".logo").attr("src", scrollSrc);
+      $(".logo").attr("src", scroll);
    else
-      $(".logo").attr("src", initialSrc);
+      $(".logo").attr("src", original);
 });
 
   $("#snacksbtn").click(function(){
