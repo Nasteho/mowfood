@@ -1,6 +1,5 @@
 
 
-
 $(window).on("scroll", function() {
     if($(window).scrollTop() > 70) {
         $("nav").addClass("backgroundcolor");
@@ -14,6 +13,10 @@ $(window).on("scroll", function() {
 
     }
 });
+
+
+
+
 
 var original = "../mowfood/assets/images/mowfoodlogosort.png";
 var scroll = "../mowfood/assets/images/mowfoodlogo.png";
@@ -76,3 +79,17 @@ var userFeed = new Instafeed({
 
   });
   userFeed.run();
+
+  $(document).ready(function(){
+    $('a[href^="#"]').on('click',function (e) {
+        e.preventDefault();
+
+        var target = this.hash;
+        var $target = $(target);
+
+        $('html, body').stop().animate({
+            'scrollTop': $target.offset().top-60
+        }, 500, 'swing', function () {
+        });
+    });
+  });
