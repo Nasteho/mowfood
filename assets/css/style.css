@@ -624,7 +624,7 @@ video {
   }
 
 .google-maps {
-      top: 835px;
+      top: 900px;
 }
 
 
@@ -632,6 +632,10 @@ video {
 
 
 @media (max-width: 576px) {
+  .action-form {
+    margin-left: 0px !important;
+  }
+
 
   #videomedium {
     display: none;
@@ -703,7 +707,7 @@ form {
   }
 
   .google-maps {
-    top: 775px;
+    top: 850px;
 
     }
 
